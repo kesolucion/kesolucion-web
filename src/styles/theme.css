@@ -1,0 +1,28 @@
+:root {
+  --color-ink: #24153e;
+  --color-primary: #6434e8;
+  --color-primary-hover: #4f23c4;
+  --color-deep: #251547;
+  --color-lime: #d8ff56;
+  --color-lime-hover: #e5ff92;
+  --color-coral: #ff987e;
+  --color-cyan: #80e5f4;
+  --color-lavender: #d6c0ff;
+  --color-background: #fcfaff;
+  --color-surface: #f0e9ff;
+  --color-muted: #635b77;
+  --color-product-muted: #473353;
+  --color-on-dark: #e1d6f5;
+  --color-border: #ded3ee;
+  --color-border-dark: #69528f;
+  --color-focus: #6434e8;
+}
+
+.solutions,
+.contact {
+  --color-focus: #d8ff56;
+}
+
+.product {
+  --color-focus: #6434e8;
+}

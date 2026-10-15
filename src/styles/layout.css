@@ -1,0 +1,64 @@
+header {
+  height: 90px;
+  background: #fcfaffed;
+  border-bottom: 1px solid #24153e0c;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(16px);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.brand {
+  font-size: 25px;
+  letter-spacing: -1.3px;
+  font-weight: 750;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  color: var(--color-lime);
+  font-size: 28px;
+  letter-spacing: -3px;
+  padding-right: 5px;
+  line-height: 1;
+}
+.brand-mark span {
+  font-size: 19px;
+  margin-left: -1px;
+  margin-top: 4px;
+}
+.brand-dot {
+  font-size: 10px;
+  align-self: flex-start;
+  margin-top: 4px;
+  margin-left: -5px;
+  letter-spacing: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+nav > a {
+  font-size: 12px;
+  font-weight: 500;
+}
+nav > a:not(.button):hover {
+  color: var(--color-primary);
+}
+.menu-button {
+  display: none;
+}

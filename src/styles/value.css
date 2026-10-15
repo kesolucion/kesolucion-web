@@ -1,0 +1,46 @@
+.value-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.value h2 {
+  margin: 20px 0 23px;
+}
+.value-grid > div > p {
+  font-size: 14px;
+  max-width: 385px;
+  color: var(--color-muted);
+}
+.value .text-link {
+  margin-top: 27px;
+}
+.value-list > div {
+  display: flex;
+  gap: 18px;
+  border-bottom: 1px solid var(--color-border);
+  padding: 29px 0;
+}
+.value-list > div:first-child {
+  padding-top: 7px;
+}
+.value-list > div > span {
+  font-size: 10px;
+  color: var(--color-primary);
+  margin-top: 5px;
+}
+.value-list > div > svg {
+  margin-left: auto;
+  stroke-width: 1;
+  color: var(--color-primary);
+}
+.value-list h3 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  margin-bottom: 9px;
+}
+.value-list p {
+  font-size: 13px;
+  color: var(--color-muted);
+  max-width: 320px;
+}
